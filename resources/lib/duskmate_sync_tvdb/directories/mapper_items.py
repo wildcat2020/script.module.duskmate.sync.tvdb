@@ -1,4 +1,4 @@
-from tmdbhelper_sync_tvdb.directories.artwork import ADDONPATH
+from duskmate_sync_tvdb.directories.artwork import ADDONPATH
 from tmdbhelper.lib.items.directories.mapper_basic import ItemMapper
 from jurialmunkey.ftools import cached_property
 

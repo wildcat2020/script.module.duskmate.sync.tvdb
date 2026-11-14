@@ -1,6 +1,6 @@
 # XBMC Media Center Swedish language file
 # Addon Name: TMDbHelper TVDb
-# Addon id: script.module.tmdbhelper.sync.tvdb
+# Addon id: script.module.duskmate.sync.tvdb
 # Addon Provider: jurialmunkey
 msgid ""
 msgstr ""

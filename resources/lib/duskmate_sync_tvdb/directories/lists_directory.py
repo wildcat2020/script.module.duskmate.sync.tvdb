@@ -1,8 +1,8 @@
 from jurialmunkey.ftools import cached_property
 from tmdbhelper.lib.items.directories.base.lists_base import BaseDirList
 from tmdbhelper.lib.items.directories.lists_default import ListDefault, ListProperties
-from tmdbhelper_sync_tvdb.directories.basedir import get_all_tvdb_class_instances
-from tmdbhelper_sync_tvdb.directories.mapper_directory import TVDbDirectoryItemMapper
+from duskmate_sync_tvdb.directories.basedir import get_all_tvdb_class_instances
+from duskmate_sync_tvdb.directories.mapper_directory import TVDbDirectoryItemMapper
 
 
 class TVDbBaseDirList(BaseDirList):

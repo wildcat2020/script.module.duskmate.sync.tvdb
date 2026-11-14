@@ -1,8 +1,8 @@
 from jurialmunkey.ftools import cached_property
 from tmdbhelper.lib.sync.providers.base import SyncProvider
-from tmdbhelper_sync_tvdb.directories.item import TVDbDirectoryItem
-from tmdbhelper_sync_tvdb.directories.routes import LIST_ROUTES
-from tmdbhelper_sync_tvdb.settings import TVDbSettings
+from duskmate_sync_tvdb.directories.item import TVDbDirectoryItem
+from duskmate_sync_tvdb.directories.routes import LIST_ROUTES
+from duskmate_sync_tvdb.settings import TVDbSettings
 
 
 class Provider(SyncProvider):
@@ -17,7 +17,7 @@ class Provider(SyncProvider):
         return self.get_api()
 
     def get_api(self):
-        from tmdbhelper_sync_tvdb.api import TVDb
+        from duskmate_sync_tvdb.api import TVDb
         return TVDb()
 
     def migrate_settings(self):

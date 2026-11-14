@@ -1,0 +1,1 @@
+from duskmate_sync_tvdb.provider import Provider

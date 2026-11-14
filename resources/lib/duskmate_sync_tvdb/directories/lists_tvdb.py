@@ -1,6 +1,6 @@
-from tmdbhelper_sync_tvdb.directories.mapper_static import TVDbStaticItemMapper
-from tmdbhelper_sync_tvdb.directories.mapper_items import TVDbAwardItemMapper
-from tmdbhelper_sync_tvdb.localization import get_localized
+from duskmate_sync_tvdb.directories.mapper_static import TVDbStaticItemMapper
+from duskmate_sync_tvdb.directories.mapper_items import TVDbAwardItemMapper
+from duskmate_sync_tvdb.localization import get_localized
 from tmdbhelper.lib.items.directories.lists_default import ListDefault, ListSliceProperties
 from tmdbhelper.lib.sync.providers.registry import SyncProviderRegistry
 from jurialmunkey.ftools import cached_property

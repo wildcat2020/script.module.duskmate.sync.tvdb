@@ -1,4 +1,4 @@
-from tmdbhelper_sync_tvdb.directories.artwork import ADDONPATH
+from duskmate_sync_tvdb.directories.artwork import ADDONPATH
 from tmdbhelper.lib.items.directories.mapper_basic import ItemMapper
 from jurialmunkey.ftools import cached_property
 
@@ -14,7 +14,7 @@ class TVDbStaticItemMapper(ItemMapper):
         return self.meta.get('name')
 
     def get_infolabels(self):
-        from tmdbhelper_sync_tvdb.consts import TVDB_DISCLAIMER
+        from duskmate_sync_tvdb.consts import TVDB_DISCLAIMER
         return {
             'plot': TVDB_DISCLAIMER,
         }

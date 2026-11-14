@@ -15,7 +15,7 @@ class TVDbToken:
 
 
 class TVDbSettings:
-    addon_id = 'script.module.tmdbhelper.sync.tvdb'
+    addon_id = 'script.module.duskmate.sync.tvdb'
 
     def __init__(self):
         self.addon = Addon(self.addon_id)
@@ -23,11 +23,11 @@ class TVDbSettings:
 
     @property
     def api_key(self):
-        from tmdbhelper_sync_tvdb.api_keys import API_KEY
+        from duskmate_sync_tvdb.api_keys import API_KEY
         return self.addon.getSetting('apikey') or API_KEY
 
     def migrate_settings(self):
-        legacy_addon = Addon('plugin.video.themoviedb.helper')
+        legacy_addon = Addon('plugin.video.duskmate')
         legacy_token = get_property('tvdb_token', is_type=str) or legacy_addon.getSetting('tvdb_token')
         if not legacy_token:
             return

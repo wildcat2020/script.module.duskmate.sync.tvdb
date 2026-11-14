@@ -1,1 +1,0 @@
-from tmdbhelper_sync_tvdb.provider import Provider

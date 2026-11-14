@@ -2,7 +2,7 @@ from xbmcaddon import Addon
 from tmdbhelper.lib.addon.plugin import get_localized as get_core_localized
 
 
-ADDON = Addon('script.module.tmdbhelper.sync.tvdb')
+ADDON = Addon('script.module.duskmate.sync.tvdb')
 LOCALIZED_IDS = frozenset((32460,))
 
 

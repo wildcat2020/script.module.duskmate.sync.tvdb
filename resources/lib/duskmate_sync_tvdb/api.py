@@ -1,6 +1,6 @@
 from tmdbhelper.lib.api.request import RequestAPI
 from tmdbhelper.lib.addon.consts import CACHE_SHORT, CACHE_MEDIUM
-from tmdbhelper_sync_tvdb.settings import TVDbSettings
+from duskmate_sync_tvdb.settings import TVDbSettings
 
 
 API_URL = 'https://api4.thetvdb.com/v4'

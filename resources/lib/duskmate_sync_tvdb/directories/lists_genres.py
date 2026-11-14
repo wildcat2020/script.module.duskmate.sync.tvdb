@@ -1,6 +1,6 @@
-from tmdbhelper_sync_tvdb.directories.lists_tvdb import ListTVDb, ListTVDbProperties, ListTVDbMediaProperties
-from tmdbhelper_sync_tvdb.directories.mapper_static import TVDbStaticGenresItemMapper
-from tmdbhelper_sync_tvdb.directories.mapper_items import TVDbGenreItemMapper
+from duskmate_sync_tvdb.directories.lists_tvdb import ListTVDb, ListTVDbProperties, ListTVDbMediaProperties
+from duskmate_sync_tvdb.directories.mapper_static import TVDbStaticGenresItemMapper
+from duskmate_sync_tvdb.directories.mapper_items import TVDbGenreItemMapper
 from tmdbhelper.lib.addon.plugin import get_setting
 from jurialmunkey.ftools import cached_property
 

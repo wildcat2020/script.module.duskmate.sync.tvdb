@@ -1,11 +1,11 @@
 # Kodi addon language file
 # Addon Name: TMDbHelper TVDb
-# Addon id: script.module.tmdbhelper.sync.tvdb
+# Addon id: script.module.duskmate.sync.tvdb
 # Addon Provider: jurialmunkey
 msgid ""
 msgstr ""
 "Project-Id-Version: TheMovieDB Helper\n"
-"Report-Msgid-Bugs-To: https://github.com/jurialmunkey/plugin.video.themoviedb.helper/issues\n"
+"Report-Msgid-Bugs-To: https://github.com/jurialmunkey/plugin.video.duskmate/issues\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2024-04-21 14:30+0300\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"

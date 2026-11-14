@@ -1,6 +1,6 @@
-from tmdbhelper_sync_tvdb.directories.item import TVDbDirItem
-from tmdbhelper_sync_tvdb.consts import TVDB_DISCLAIMER
-from tmdbhelper_sync_tvdb.localization import get_localized
+from duskmate_sync_tvdb.directories.item import TVDbDirItem
+from duskmate_sync_tvdb.consts import TVDB_DISCLAIMER
+from duskmate_sync_tvdb.localization import get_localized
 from jurialmunkey.ftools import cached_property
 
 
