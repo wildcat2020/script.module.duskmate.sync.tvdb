@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="script.module.duskmate.sync.tvdb" version="1.0.3.1" name="Duskmate Sync - TVDb" provider-name="jurialmunkey / Duskmate">
+<addon id="script.module.duskmate.sync.tvdb" version="1.0.3.2" name="Duskmate Sync - TVDb" provider-name="jurialmunkey / Duskmate">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
-        <import addon="script.module.jurialmunkey" version="0.2.35"/>
+        <import addon="script.module.duskmate.common" version="0.2.39.1"/>
         <import addon="plugin.video.duskmate" version="6.21.5.7"/>
     </requires>
     <extension point="xbmc.python.script" library="resources/script.py"/>
